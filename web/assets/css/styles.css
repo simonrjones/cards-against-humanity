@@ -1,10 +1,25 @@
+html {
+	font-size: 13px;
+}
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 0 1em 1em 1em;
 }
 
+@media screen and (min-width: 500px) {
+	html {
+		font-size: 16px;
+	}
+}
+
 h1 {
 	font-size: 2.8rem;
+}
+
+header, 
+main {
+	padding-left: 1em;
 }
 
 footer {
@@ -32,8 +47,8 @@ footer a:visited {
 .card {
 	position: relative;
 	box-sizing: border-box;
-	margin: 1em;
-	padding: 1em;
+	margin: 1.2rem;
+	padding: 1.2rem;
 	width: 12.6rem;
 	height: 17.6rem;
 	font-size: 1.2rem;
@@ -41,12 +56,29 @@ footer a:visited {
 	border-radius: 0.6em;
 }
 
+#answer {
+    text-align: center;
+	line-height: 14rem;	
+	color: #666;
+	border-color: #666;
+}
+
+#answer:-moz-drag-over {
+	border-color: black;
+}
+
+
 .word {
 	display: block;
 	width: 100%;
 	height: 1.4rem;
 	border-bottom: 1px solid white;
 	margin-bottom: 0.15rem;
+}
+
+.game a {
+	text-decoration: none;
+	color: black;
 }
 
 .card img {
@@ -76,8 +108,6 @@ footer a:visited {
 
 .card-stack {
 	display: flex;
+    flex-wrap: wrap;
 }
 
-.card-stack .card {
-	
-}
