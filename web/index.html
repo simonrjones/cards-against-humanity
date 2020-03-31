@@ -7,11 +7,10 @@
     <meta property="og:description" name="description" content="The living content- and style guide for Studio 24 by Studio 24."/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen"/>
+	<script src="/assets/js/game.js" defer></script>
 </head>
-<script>
-  
-</script>
+
 <body>
 	
 <header>
@@ -24,18 +23,17 @@
 		
 		<div class="card-stack">
 			
-		<div class="card black">
+		<div class="card black cah" id="question">
 			Airport security guidelines now prohibit <span class="word"></span> on airplanes.
-			<img 
-			    src="assets/img/cah-logo-black.svg" 
-			    alt=""
-			    height="25"
-			    width=25" />
 		</div>
 		
 		<div class="card white" id="answer">
 			Your answer
 		</div>
+				
+				<div>
+					<button id="choose">Choose this answer</button>
+				</div>
 				
 		</div>
 		
@@ -43,34 +41,37 @@
 		
 		<div class="card-stack">
 					
-		<a href="" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Elvis')" id="p1"><div class="card white">
+		<a href=""><div class="card white cah">
 			Elvis.
-			<img 
-			    src="assets/img/cah-logo-white.svg" 
-			    alt=""
-			    height="25"
-			    width=25" />
 		</div></a>
 		
-		<a href=""><div class="card white">
+		<a href=""><div class="card white cah">
 			Miss Piggy.
-			<img 
-			    src="assets/img/cah-logo-white.svg" 
-			    alt=""
-			    height="25"
-			    width=25" />
 		</div></a>
 		
-		<a href=""><div class="card white">
+		<a href=""><div class="card white cah">
 			Cherry flavour pizza.
-			<img 
-			    src="assets/img/cah-logo-white.svg" 
-			    alt=""
-			    height="25"
-			    width=25" />
 		</div></a>
 		
-		<div>
+	</div>
+	
+<h1>Cows Against Humanity.</h2>
+	
+	<div class="card-stack">
+	
+	<div class="card black cow">
+		Don't eat <span class="word"></span> before lunch.
+	</div>
+	
+	<a href=""><div class="card white cow">
+		Pikachu.
+	</div></a>
+	
+	<a href=""><div class="card white cow">
+		My pants.
+	</div></a>
+		
+	</div>
 		
     </main>
 
@@ -78,8 +79,10 @@
     <p><a href="https://cardsagainsthumanity.com/">“Cards Against Humanity”</a> and the CAH logos are trademarks of Cards Against Humanity LLC. Content is used under a 
 	<a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>. 
     </p>
+	<p>Images: Cow by James Keuning; Penguin by Larry Ewing, Simon Budig, Garrett LeSage; both licensed under 
+		<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=ccsearch&atype=rich">CC0 1.0</a>.
 	<p>Online game developed by <a href="https://simonrjones.net/">Simon R Jones</a>, 
-		<a href="https://www.studio24.net/">Studio 24</a>. Thanks for all the fish.</p>
+		<a href="https://www.studio24.net/">Studio 24</a>. Thanks for all the fish.</p>	
 </footer>
 </body>
 </html>

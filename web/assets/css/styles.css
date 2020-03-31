@@ -57,10 +57,13 @@ footer a:visited {
 }
 
 #answer {
-    text-align: center;
-	line-height: 14rem;	
-	color: #666;
-	border-color: #666;
+	color: #777;
+	border-color: #777;
+}
+
+#answer.chosen {
+	color: black;
+	border-color: black;
 }
 
 #answer:-moz-drag-over {
@@ -104,6 +107,26 @@ footer a:visited {
 
 .word.white {
 	border-bottom: 1px solid black;
+}
+
+.card.cah,
+.card.cow {
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: 28px;
+}
+.card.cah.white {
+	background-image: url("../img/cah-logo-white.svg");
+}
+.card.cah.black {
+	background-image: url("../img/cah-logo-black.svg");
+}
+.card.cow.white {
+	background-image: url("../img/cow-white.svg");
+}
+.card.cow.black {
+	background-image: url("../img/cow-black.svg");
 }
 
 .card-stack {
